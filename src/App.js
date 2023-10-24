@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router'
-import TestButton from './components/buttons/TestButton'
+import ButtonsMain from './components/buttons/ButtonsMain'
 
 const App = () => {
   return (
     <div className="h-screen">
       <Routes>
-        <Route path="/buttons" element={<TestButton />} />
+        <Route path="/buttons" element={<ButtonsMain />} />
       </Routes>
     </div>
   )
