@@ -1,17 +1,14 @@
-import TestButton from './TestButton'
 import List from '../lists/List'
 import PrimaryButton from './PrimaryButton'
+import SecondaryButton from './SecondayButton'
+import SimpleButton from './SimpleButton'
 
 const ButtonsMain = () => {
   return (
     <List>
       <PrimaryButton />
-      <TestButton />
-      <TestButton />
-      <TestButton />
-      <TestButton />
-      <TestButton />
-      <TestButton />
+      <SecondaryButton />
+      <SimpleButton colorStart={'fuchsia-200'} colorHover={'fuchsia-300'} />
     </List>
   )
 }
