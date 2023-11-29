@@ -6,7 +6,9 @@ const Navbar = () => {
       <Link to={'/buttons'} className="text-white">
         Buttons
       </Link>
-      <Link className="text-white">Homepage</Link>
+      <Link to={'/home'} className="text-white">
+        Homepage
+      </Link>
       <Link className="text-white">Menus</Link>
       <Link className="text-white">Lists</Link>
     </div>
